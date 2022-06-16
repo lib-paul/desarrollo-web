@@ -96,8 +96,19 @@ footer {
     margin-top: 40px;
     background-color: rgba(235, 235, 226, 0.952);
     padding: 20px;
-    font-size: medium;
+    font-size: larger;
     font-style: italic;
+    text-align: center;
+}
+
+.social-media{
+    justify-content: center;
+    display: flex;
+}
+
+.facebook-icon, .twitter-icon, .instagram-icon, .whatsapp-icon {
+    width: 50px;
+    margin: 10px;
 }
 
 * {
