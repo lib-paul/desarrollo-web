@@ -129,3 +129,33 @@ footer {
 * {
     margin: 0px;
 }
+
+/* ---------- Reglas para los botoncitos -------- */
+.btn {
+    background: #34d3d9;
+    background-image: -webkit-linear-gradient(top, #34d3d9, #000000);
+    background-image: -moz-linear-gradient(top, #34d3d9, #000000);
+    background-image: -ms-linear-gradient(top, #34d3d9, #000000);
+    background-image: -o-linear-gradient(top, #34d3d9, #000000);
+    background-image: linear-gradient(to bottom, #34d3d9, #000000);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.button-questionary{
+    margin-top: 20px;
+}

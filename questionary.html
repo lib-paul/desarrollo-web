@@ -4,37 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <title>Document</title>
 </head>
 <body>
-    <div class="questionary">
-        <div class="question-one">
-            <p>Pregunta 1:</p>
-            <p>¿Cual es el nombre del protagonista del blog?</p>
-            <input class ="i-1" type="text" placeholder="Enter your password" id="1">
-        </div>
-        <div class="question-two">
-            <p>Pregunta 2:</p>
-            <p>¿Que edad tiene?</p>
-            <input class ="i-2" type="text" placeholder="Enter your password" id="2">
-        </div>
-        <div class="question-three">
-            <p>Pregunta 3:</p>
-            <p>¿Cuantos hijos tiene?</p>
-            <input class ="i-3" type="text" placeholder="Enter your password" id="3">
-        </div>
-        <div class="question-four">
-            <p>Pregunta 4:</p>
-            <p>¿Como se llama su esposa?</p>
-            <input class ="i-4" type="text" placeholder="Enter your password" id="4">
-        </div>
-        <div class="question-five">
-            <p>Pregunta 5:</p>
-            <p>¿Cual es su hobby?</p>
-            <input class ="i-5" type="text" placeholder="Enter your password" id="5">
-        </div>
-        <a class="finish-questionary" id="finish" href="index.html">Finalizar cuestionario</a>
+    <div class="header-div">
+        <header>
+            <h1>Cuestionario para el blog</h1>
+        </header>
     </div>
+    <main>
+        <section>
+            <article class="article-class" id="1">
+                <div>
+                    <div class="questionary">
+                        <div class="question-one">
+                            <p>Pregunta 1:</p>
+                            <p>¿Cual es el nombre del protagonista del blog?</p>
+                            <input class ="i-1" type="text" placeholder="Ingresar respuesta" id="1">
+                        </div>
+                        <div class="question-two">
+                            <p>Pregunta 2:</p>
+                            <p>¿Que edad tiene?</p>
+                            <input class ="i-2" type="text" placeholder="Ingresar respuesta" id="2">
+                        </div>
+                        <div class="question-three">
+                            <p>Pregunta 3:</p>
+                            <p>¿Cuantos hijos tiene?</p>
+                            <input class ="i-3" type="text" placeholder="Ingresar respuesta" id="3">
+                        </div>
+                        <div class="question-four">
+                            <p>Pregunta 4:</p>
+                            <p>¿Como se llama su esposa?</p>
+                            <input class ="i-4" type="text" placeholder="Ingresar respuesta" id="4">
+                        </div>
+                        <div class="question-five">
+                            <p>Pregunta 5:</p>
+                            <p>¿Cual es su hobby?</p>
+                            <input class ="i-5" type="text" placeholder="Ingresar respuesta" id="5">
+                        </div>
+                      
+                    </div>
+                </div>
+             
+            </article>
+            <a class="btn" id="finish" href="index.html">Finalizar cuestionario</a>
+    </main>
+
+
 </body>
+
 <script type="text/javascript" src="static/js/scripts.js"></script>
 </html>

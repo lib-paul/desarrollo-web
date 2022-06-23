@@ -7,7 +7,7 @@ function getPassword(){
     link.addEventListener("click",()=>{
         if(value != password){
             alert("Password incorrecta, vuelva a intentarlo.")
-            link.href="auth.html"
+            link.href="index.html"
         }else{
             alert("Verificado correctamente")
         }
@@ -42,9 +42,15 @@ function getAnswer(){
 const link = document.getElementById('finish')
 link.addEventListener('click',() => {
     let points = getAnswer()
-    if(points == 5){
-        alert('Tus puntos son: '+points+'. Bien leiste algo.')
-    }else{
-        alert('Tus puntos son: '+points+'. Deberias leer mejor el blog.')
+    if(points == 10){
+        alert('¡Felicitaciones! Obtuvo el máximo puntaje')
+    }else if(points <= 9 && points >= 7){
+        alert('Tus puntos son: '+points+'. Casi alcanzaste el maximo puntaje')
+    }else if(points == 6 || points == 5){
+        alert('Tus puntos son: '+points+'. Aprobaste?.')
+    }else if(points == 4 || points == 3){
+        alert('Tus puntos son: '+points+'. Sigue faltando lectura pero yo se que puedes conseguirlo :).')
+    }else if(points >= 0 && points <= 2){
+        alert('Tomate un tiempo para ver nuestro blog y conocernos mejor. Hasta pronto')
     }
 })
