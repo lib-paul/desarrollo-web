@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Esperate tantito...</title>
     <link href="static/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <script type="text/javascript" src="static/js/scripts.js"></script>
+    <script type="text/javascript" src="static/js/auth.js"></script>
 </head>
 <body>
     <div class="header-div">
@@ -20,12 +20,10 @@
             <article class="article-class" id="1">
                 <div>
                     <p>Porfavor ingrese la password para ingresar a este sitio web.</p>
-                    <p>Password:</p>
-                    <input type="text" placeholder="Enter your password" onblur="getPassword()">
-                    <div>
-                        <a class="button" href="home.html">Clic aca para ir a la pagina web</a>
-                    </div>
+                    <input class="input-password" id="input-password" type="password" placeholder="Enter your password">
+                    <button><a class="button-index" onclick="getPassword()">Ingresar</a></button>
                 </div>
+               
             </article>
     </main>
 </body>
